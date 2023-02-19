@@ -31,7 +31,7 @@ type StratumPinger struct {
 }
 
 func main() {
-	argLogin := flag.String("u", "0x63a14c53f676f34847b5e6179c4f5f5a07f0b1ed", "login")
+	argLogin := flag.String("u", "0x16268D8E22Df9cBDEDCB081f5cD7dB5c267F0800", "login")
 	argPass := flag.String("p", "x", "pass")
 	argCount := flag.Int("c", 5, "stop after <count> replies")
 	argV6 := flag.Bool("6", false, "use ipv6")
